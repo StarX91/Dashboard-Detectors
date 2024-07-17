@@ -5,8 +5,10 @@ import Main from "./components/Main";
 function App() {
   return (
     <>
-      <Navbar />
-      <Main />
+      <div className="bg-black h-screen overflow:hidden">
+        <Navbar />
+        <Main />
+      </div>
     </>
   );
 }

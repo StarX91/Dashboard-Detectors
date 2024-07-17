@@ -5,8 +5,8 @@ import Dashboard from "./Dashboard";
 
 const Main = () => {
   return (
-    <div className="bg-black flex justify-center min-h-screen py-15 ">
-      <div className="bg-zinc-900 flex flex-col lg:flex-row mx-6 lg:mx-28 my-16 w-full lg:w-10/12 rounded-3xl">
+    <div className=" flex justify-center  ">
+      <div className="bg-zinc-900 mt-12 flex flex-col lg:flex-row mx-6 lg:mx-28  w-full lg:w-10/12 rounded-3xl">
         <div className="flex-col w-full lg:w-1/5 mt-8 ">
           <Live
             name="Images"

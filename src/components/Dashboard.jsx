@@ -3,9 +3,9 @@ import { BiSearchAlt } from "react-icons/bi";
 
 const Dashboard = () => {
   return (
-    <div className="min-h-screen flex-1 p-4 bg-zinc-900">
+    <div className=" flex-1 p-4 ">
       {/* Search and Status */}
-      <div className="flex items-center mt-16 ml-2 mb-4">
+      <div className="flex items-center mt-16  ml-2 mb-4">
         <input
           type="text"
           placeholder="Search"
